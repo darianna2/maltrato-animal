@@ -1,0 +1,80 @@
+html{
+  background-color: #eec9ce;
+} 
+
+body {
+  color: black;
+  display: flex; 
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 1000px;
+  margin:auto;
+  border:solid;
+  text-align:center;
+}
+
+nav{
+  background-color: #eec9ce;
+  font-size: 20px;
+  text-align:center;
+  ;
+}
+
+nav a{
+  color:#0007d1;
+  margin-right: 20px;
+}
+
+nav a:hover{
+  color:#0007d1;
+}
+
+.titulo{
+  font-size: 30px;
+  text-align: center;
+}
+
+.titulo h1{
+  margin-bottom: 0;
+  padding: 0;
+  color: #0007d1;
+}
+
+hr{
+  background-color:#9b9dd9;
+  color: #9b9dd9;
+  border: solid;
+  width: 100%;
+}
+
+img{
+  min-height: 200px;
+  min-winth: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  border: solid 5px;
+  :center;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+}
+
+input, textarea {
+ width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px
+}
